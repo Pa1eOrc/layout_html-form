@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="./style.css">
   </head>
   <body>
-    <h1>HTML Form</h1>
     <form action="https://mate-academy-form-lesson.herokuapp.com/create-application" method="post">
       <fieldset class="group">
         <legend>Personal information</legend>
@@ -40,10 +39,10 @@
           How old are You?
           <input 
             class="field" 
-            type="text" 
+            type="number" 
             name="youAge" 
             min="1" 
-            maxvalue="100" 
+            max="100" 
             value="12"
           >
         </label>
@@ -55,7 +54,7 @@
             name="dateOfBirth"
           >
         </label>
-        <label class="form-field">
+        <label class="form-field  last">
           I accept the term of the agreement
           <input 
             class="field" 
@@ -77,7 +76,7 @@
             autocomplete="off"
           >
         </label>
-        <label class="form-field">
+        <label class="form-field last">
           Password:
           <input 
             class="field" 
@@ -125,7 +124,7 @@
           >
         </label>
         <label class="form-field">
-          What is your favorite cars?
+          What is your favorite brand of cars?
           <select 
             class="field" 
             name="favoriteCars" 
@@ -138,7 +137,7 @@
             <option></option>
           </select>
         </label>
-        <label class="form-field">
+        <label class="form-field last">
           How do you rate our work?
           <input 
             class="field" 
@@ -158,8 +157,8 @@
           >
           </textarea>
         </label>
-        <label class="form-field">
-          Would you recomend us?
+        <label class="form-field last">
+          Would you recommend us?
           <select 
             class="field" 
             name="recomendUs"

@@ -1,16 +1,13 @@
 /* styles go here */
-body {
-  margin: 0;
-}
-
 .form-field {
   display: block;
+  margin-bottom: 10px;
 }
 
 .group {
-  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
-.field {
-  margin-top: 10px;
+.last {
+  margin: 0;
 }
